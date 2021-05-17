@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    box-shadow: 2px 0 12px -2px rgba(0,0,0,.2);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    width: 74%;
+}
+
+.nav ul li {
+    margin: 1rem 2rem;
+    font-size: 1.5rem; 
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav img {
+    margin-left: 12rem;
+}
+
+#home {
+    color: #00BF69;
+}
+
+#join {
+    background-color: #00BF69;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #fff ;
+}
+
+
+.logo {
+    margin-left: 13rem;
+    border-radius: 50%;
+}
+
+.nav h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.block {
+    width: 45%;
+}
+
+.firstp {
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: 700;
+}
+
+.secondp {
+    font-size: 1.3rem;
+    color: #878686;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 45%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstimg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-left: 0.5rem;
+    margin-bottom: -2rem;
+}
+
+.secondimg {
+    position: relative;
+    z-index: 1;
+    margin-top: -2rem;
+    margin-left: 4rem;
+}
+
+.thirdimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    margin-right: 4rem;
+    margin-top: 5rem;
+}
+
+.image img {
+    height: 34rem;
+}
+
+.badges {
+    margin-top: -19rem;
+    margin-left: 13rem;
+}
+
+.appstore {
+    margin-left: 1rem;
+}
+
+.ellipse {
+    display: flex;
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+.ellipse p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.elipse {
+    width: 35rem;
+}
+
+.last {
+    display: flex;
+    margin-left: 21.5rem;
+}
+
+.lastp {
+    margin-left: 1rem;
+    color: #878686;
+}
+
+.green {
+    background-color: #00BF69;
+    width: 35rem;
+    height: 38rem;
+    border-radius: 50%;
+    margin-top: 15rem;
+    margin-left: 7rem;
+}
+
+.container {
+    margin-top: 7rem;
+    padding-bottom: 10rem;
+}
+
+.section {
+    background-color: #E2F6E9;
+}
+
+.containertwo {
+    margin-top: 7rem;
+    /* padding-bottom: 10rem; */
+}
+
+.maintwo {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.iphone {
+    position: absolute;
+    z-index: 1;
+    height: 33rem;
+    margin-left: 13rem;
+    
+}
+
+.imagestwo {
+    width: 45%;
+    margin: 10rem;
+}
+
+.vector {
+    position: relative;
+    z-index: 0;
+    height: 26rem;
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+}
+
+.writeups {
+    width: 67%;
+    margin-top: 16rem;
+}
+
+.writeups h4 {
+    font-size: 3rem;
+    color: #00BF69;
+    margin-bottom: 1.5rem;
+}
+
+.writeups p {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.writeups ul li {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.maintwo {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.iphoneone {
+    position: absolute;
+    z-index: 1;
+    height: 33rem;
+    margin-left: 13rem;
+    
+}
+
+.imagesthree {
+    width: 45%;
+    margin: 10rem;
+}
+
+.vectortwo {
+    position: relative;
+    z-index: 0;
+    height: 26rem;
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+}
+
+.writeupstwo {
+    width: 67%;
+    margin-top: 16rem;
+}
+
+.writeupstwo h4 {
+    font-size: 3rem;
+    color: #00BF69;
+    margin-bottom: 1.5rem;
+}
+
+.writeupstwo p {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.writeupstwo ul li {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.one {
+    margin-top: -13rem;
+}
+
+ .writeups ul {
+    list-style: none;
+  }
+  
+ .writeups ul li:before {
+    content: '✓';
+    color: #00BF69;
+    padding: 1rem;
+  }
+
+  .writeupstwo ul {
+    list-style: none;
+  }
+  
+ .writeupstwo ul li:before {
+    content: '✓';
+    color: #00BF69;
+    padding: 1rem;
+  }
+
+  .containerthree {
+    display: flex;
+    margin-left: 6%;
+}
+  .parent {
+    margin-top: 7rem;
+    padding-bottom: 8rem;
+  }
+
+  .parent h3 {
+    font-size: 3.5rem;
+    margin-left: 5rem;
+    padding: 3rem;
+  }
+
+  .sectiontwo {
+      margin-right: 5%;
+  }
+
+  .sectiontwo p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .sectiontwo img {
+    margin-left: 11.5rem;
+    padding: 2rem;
+  }
+
+  .name {
+      margin-bottom: .5rem !important;
+  }
+
+  .title {
+    color: #878686;
+  }
+
+  .parentone {
+    background-image: url('../image/v.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4.5rem 0;
+  }
+
+  .mainthree {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    width: 88%;
+  }
+
+  .mainthreeone {
+      margin-top: 3rem;
+      margin-left: 21rem;
+      width: 30%;
+      
+  }
+
+  .mainthreeone h5 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+
+  }
+
+  .mainthreeone p {
+    font-size: 1.4rem;
+    color: #555555;
+  }
+
+  .mainfour {
+    text-align: center;
+    padding: 12rem 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .mainfour h1 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+  }
+
+  .mainfour p {
+    font-size: 1.5rem;
+    width: 53%;
+    margin-left: 26rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .mainfour img {
+      padding: 1rem;
+  }
+
+  .footer {
+      background-color: #00BF69;
+  }
+
+  .footerone {
+    background: url(../image/slant.png) left center , url(../image/slant.png) right center;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .footerone ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .footerone ul li {
+      padding: 1.5rem;
+  }
+
+  .footerone p {
+    font-size: 1.5rem;
+    line-height: 6rem;
+  }
+
+  
+
+ 
+
+  
